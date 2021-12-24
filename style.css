@@ -1,0 +1,66 @@
+body
+{
+background-image: url("background.jpg");
+background-size: cover;
+}
+
+.heading
+{
+background-color: black;
+font-size: 20px;
+color: azure;
+margin: 0%;
+width: 100%;
+}
+
+.note
+{
+    font-size: 15px;
+}
+
+.div_speed
+{
+    float: left;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.div_speed_img
+{
+width: 250px;
+height: 250px;
+border-radius: 125px;
+}
+
+#speed
+{
+font-size: 20px;
+margin: 15px;
+}
+
+.div_volume
+{
+    float: right;
+    margin-top: 5%;
+    margin-right: 3%;
+}
+
+.div_volume_img
+{
+width: 250px;
+height: 250px;
+border-radius: 125px;
+}
+
+#volume
+{
+font-size: 20px;
+margin: 15px;
+}
+
+canvas
+{
+    border: 5px solid white;
+    border-radius: 20px;
+    background-color: black;
+}
