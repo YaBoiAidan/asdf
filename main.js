@@ -1,5 +1,5 @@
-song1 = "false"
-song2 = "false"
+song = "";
+song2 = "";
 leftwristX = 0;
 leftwristY = 0;
 rightwristX = 0;
@@ -32,24 +32,23 @@ function draw()
     {
         circle(leftwristX,leftwristY,30);
         song2.stop();
-        song2 = "false"
-        if (song = "false") {
+        console.log(song.isPlaying());
+        if (song.isPlaying() == false) {
+        song.setVolume(1)
         song.play();
-        song = "playing"
         document.getElementById("bruh").innerHTML = "Song 1";
         }
     }
 
     fill("red");
     stroke("black");
-    if (scoreleftWrist > 0.2) 
+    if (scorerightWrist > 0.0000000000000002) 
     {
         circle(rightwristX,rightwristY,30);
         song.stop();
-        song = "false"
-        if (song2 = "false") {
+        if (song2.isPlaying() == false) {
+        song.setVolume(1)
         song2.play();
-        song2 = "playing"
         document.getElementById("bruh").innerHTML = "Song 2";
         }
     }
